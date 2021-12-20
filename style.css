@@ -38,7 +38,7 @@ section {
 aside {
   /* margin-left: 2em; */
   margin: 0 auto;
-  width: 70%;
+  width: 72%;
   height: 75%;
   min-width: 400px;
   min-height: 650px;
@@ -91,9 +91,23 @@ aside form input::placeholder {
   color: rgb(135, 135, 135);
 }
 
+aside form span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+aside form span input,
+aside form span label {
+  /* display: inline-block; */
+  margin: 0px;
+  padding: 0px;
+  justify-self: flex-start;
+}
+
 aside form button {
   width: 100%;
-  margin-top: 1em;
+  margin-top: 1.5em;
   padding: 1.2em;
   border-radius: 0.7em;
   /* border: solid 2px white; */
@@ -105,11 +119,13 @@ aside form button {
   color: white;
 }
 
-aside span > a {
+aside span > a,
+aside form span p > a {
   color: #f3723b;
 }
 
-aside span > a:hover {
+aside span > a:hover,
+aside form span p > a:hover {
   text-decoration: none;
 }
 
