@@ -66,6 +66,7 @@ aside form {
 
 aside form label {
   display: block;
+  margin-left: 1.1em;
 }
 
 aside form input {
@@ -147,13 +148,13 @@ header p {
 }
 
 @media (max-width: 900px) {
-    header {
-        display: none;
-    }
+  header {
+    display: none;
+  }
 
-    section {
-        grid-template-columns: 1fr;
-        padding: 0;
-        height: 100vh;
-    }
+  section {
+    grid-template-columns: 1fr;
+    padding: 0;
+    height: 100vh;
+  }
 }
