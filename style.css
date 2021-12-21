@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  overflow: auto;
 }
 
 :root {
@@ -143,8 +144,9 @@ header {
 
 header h2 {
   font-size: 2em;
-  color: #212121;
+  color: #512828;
   margin-bottom: 0.3em;
+  font-weight: 900;
 }
 
 header p {
