@@ -15,9 +15,10 @@ body {
 
   font-family: var(--font);
   font-size: 16px;
-  color: white;
+  /* color: white; */
 
-  background-image: url(bg.jpg);
+  backdrop-filter: blur(5px);
+  background: url(bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -46,10 +47,11 @@ aside {
   max-height: 800px;
   padding: 3.5rem;
   border-radius: 0.8rem;
-  background-color: rgba(0, 0, 0, 0.749);
+  background-color: rgba(242, 242, 242, 0.523);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  backdrop-filter: blur(5px);
 }
 
 aside #h1 {
@@ -66,7 +68,8 @@ aside form {
 
 aside form label {
   display: block;
-  margin-left: 1.1em;
+  margin-left: 0.5em;
+  font-size: 1.1em;
 }
 
 aside form input {
@@ -75,9 +78,9 @@ aside form input {
   margin: 0.7em 0 1.5em;
   padding: 1.2em 1.1em;
   background-color: transparent;
-  border: solid 2.5px rgb(84, 84, 84);
+  border: solid 2.5px rgb(0, 0, 0);
   border-radius: 0.7em;
-  color: rgb(167, 167, 167);
+  color: rgb(0, 0, 0);
   font-size: 0.9em;
   letter-spacing: 0.13em;
 }
@@ -89,7 +92,7 @@ aside form input:focus {
 
 aside form input::placeholder {
   /* font-size: 1.1em; */
-  color: rgb(135, 135, 135);
+  color: rgb(0, 0, 0);
 }
 
 aside form span {
@@ -122,7 +125,7 @@ aside form button {
 
 aside span > a,
 aside form span p > a {
-  color: #f3723b;
+  color: #e54750;
 }
 
 aside span > a:hover,
@@ -135,11 +138,12 @@ header {
   margin-bottom: 18%;
   font-size: 1.6em;
   width: 450px;
+  /* background-color: rgba(0, 0, 0, 0.167); */
 }
 
 header h2 {
   font-size: 2em;
-  color: #e54750;
+  color: #212121;
   margin-bottom: 0.3em;
 }
 
