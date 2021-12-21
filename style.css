@@ -145,3 +145,15 @@ header h2 {
 header p {
   color: rgb(240, 240, 240);
 }
+
+@media (max-width: 900px) {
+    header {
+        display: none;
+    }
+
+    section {
+        grid-template-columns: 1fr;
+        padding: 0;
+        height: 100vh;
+    }
+}
